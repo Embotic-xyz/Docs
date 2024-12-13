@@ -6,7 +6,7 @@ export default defineConfig({
 		starlight({
 			title: 'Embotic Documentation',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Embotic-xyz',
 			},
 			sidebar: [
 				{
