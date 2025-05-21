@@ -7,6 +7,7 @@ export default defineConfig({
 			title: 'Embotic Documentation',
 			social: {
 				github: 'https://github.com/Embotic-xyz',
+				discord: 'https://discord.gg/d9j4WkTTns',
 			},
 			sidebar: [
 				{
@@ -18,7 +19,19 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Setupping a server', slug: 'guides/serversetup' },
+					],
+				},
+				{	label: 'Errors',
+					items: [
+						{ label: 'About errors', slug: 'errors/general' },
+						{ label: '404', slug: 'errors/404' },
+						{ label: '500', slug: 'errors/500' },
+						{ label: 'Email Verification', slug: 'errors/emailverification' },
+/*						{ label: '503', slug: 'errors/503' },
+						{ label: '504', slug: 'errors/504' },
+						{ label: '401', slug: 'errors/401' },
+*/
 					],
 				},
 				{
